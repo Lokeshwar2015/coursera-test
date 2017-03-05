@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head ng-module="signin">
     <meta charset="UTF-8">
+
+    <script type="javascript" src="../app/bower_components/angular/angular.min.js"></script>
+    <script type="javascript" src="module/signInModule.js"></script>
+    <script type="javascript" src="controller/signInController.js"></script>
     <title>Title</title>
 </head>
-<body>
+<body ng-controller="signInController">
 
+
+{{ welcomeMessage}}
 Hello - Welcome to the index page !! wow
 
 </body>
